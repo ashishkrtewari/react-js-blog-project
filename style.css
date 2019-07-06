@@ -1,0 +1,29 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+h1, p {
+  font-family: Lato;
+}
+
+.post-container {
+  border: 1px solid #aaa;
+  margin: 20px 0;
+  padding: 10px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.post-container:hover {
+  box-shadow: 2px 5px 10px #000;
+}
+.post-container .text-container {
+  padding-right: 10px
+}
+.post-title h2 {
+  text-transform: capitalize;
+}
+.text-container {
+  color: #333333;
+}
+a:hover, a:hover {
+  text-decoration: none !important;
+}
